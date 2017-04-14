@@ -4,13 +4,14 @@ public class MonthsOfTheYear {
 	
 	
 	
-	public static void Months(String[] args)
+	public static void main(String[] args)
 	{
 		int					month = 2; // cannot use arrays when dealing with switch statements, good to know	
 		switch (month)
 		{
 			case 1: System.out.println("January");
-			case 2: System.out.println("February");
+			case 2: {System.out.println("February");
+					break;}
 			case 3: System.out.println("March");
 			case 4: System.out.println("April");
 			case 5: System.out.println("May");

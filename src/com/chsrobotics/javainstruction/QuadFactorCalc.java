@@ -7,9 +7,9 @@ public class QuadFactorCalc {
 		
 	public static void main(String[] args){
 		//Insert the values of the equation below
-		double			a = 1;
-		double			b = 2;
-		double			c = 5;
+		double			a = 6;
+		double			b = 13;
+		double			c = 2;
 		
 		//This is the discriminant
 		double			discriminant = (b*b)-(4*a*c);
@@ -19,8 +19,8 @@ public class QuadFactorCalc {
 		//Tells what to do when there is a regular discriminant
 		if(discriminant >= 0)
 			{
-				double 			d = -b + Math.sqrt(discriminant)/ (2*a);
-				double			e = -b - Math.sqrt(discriminant)/ (2*a);
+				double 			d = (-b + Math.sqrt(discriminant))/ (2*a);
+				double			e = (-b - Math.sqrt(discriminant))/ (2*a);
 		
 				System.out.printf("   x is equal to " + d);
 				System.out.printf("   and x is equal to " + e);

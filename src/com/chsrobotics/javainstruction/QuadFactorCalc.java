@@ -34,15 +34,15 @@ public class QuadFactorCalc {
 				
 				
 				
-				double 			f = -b + Math.sqrt(discriminant);
-				double 			g = -b - Math.sqrt(discriminant);
+				double 			f =  + Math.sqrt(discriminant);
+				double 			g =  - Math.sqrt(discriminant);
 				double			h = 2*a;
 			
 				
 				
 				
-				System.out.printf("   x is equal to " + f + "i/" + h);
-				System.out.printf("   and x is equal to " + g + "i/" + h);
+				System.out.printf("   x is equal to " + -b/h + " + " +f + "i/" + h);
+				System.out.printf("   and x is equal to " + -b/h + " " + g + "i/" + h);
 			}
 		
 		

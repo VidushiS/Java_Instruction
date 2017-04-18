@@ -21,9 +21,9 @@ public class WednesdayProject {
 		{
 			float x = ((number + 4) * (number + 4));
 			float y = (number - 3);
-			float z = x/y;
+			float a = x/y;
 			 
-			 System.out.println("The answer is: " + z);
+			 System.out.println("The answer is: " + a);
 			 
 			
 		}
